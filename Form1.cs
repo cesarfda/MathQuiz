@@ -23,13 +23,13 @@ namespace Math_Quiz
         public Form1()
         {
             InitializeComponent();
-            var today = DateTime.Now.ToString("dd MMMM yyyy");
-            label5.Text = today;
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            var today = DateTime.Now.ToString("dd MMMM yyyy");
+            label5.Text = today;
         }
 
         private void answer_enter(object sender, EventArgs e)
